@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Amazon;
+}
+
+@media (max-width: 600px) {
+    footer {
+        display: none;
+    }
+}
+
+body {
+    background-color: rgb(244, 239, 239);
+}
+
+@font-face {
+    font-family: Amazon;
+    src: url(AmazonEmberMedium.ttf);
+  }
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.top-nav * {
+    font-family: Amazon;
+}
+
+.top-nav {
+    display: flex;
+    width: 100%;
+    background-color: #131921;
+    align-items: center;
+    gap: 46px;
+}
+
+nav img {
+    width: 105px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+nav button {
+    background-color: #131921;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.delivery-button {
+    cursor: pointer;
+    height: 50px;
+    align-self: center;
+    transition: border 0.01s;
+}
+
+.delivery-button:hover {
+    border: 2px white solid;
+    border-radius: 2px;
+}
+
+.deliver {
+    color: #ccc;
+    padding-left: 10px;
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+}
+
+button i {
+    margin-right: 3px;
+}
+
+nav input {
+    height: 34px;
+    width: 800px;
+    outline-color: rgb(234, 165, 37);
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+}
+
+.icon-button {
+    background-color: rgb(234, 165, 37);
+    height: 36px;
+    flex-basis: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: opacity 0.15s;
+    padding-top: px;
+}
+
+.icon-button:hover {
+    opacity: 0.9;
+}
+
+#cars {
+    /* flex-basis: 10px; */
+    height: 38px;
+    width: 50px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: rgb(213, 213, 213);
+    cursor: pointer;
+}
+
+#cars:hover {
+    opacity: 0.8;
+}
+
+.lang-img {
+    width: 30px;
+    margin: 0;
+    
+}
+
+.EN {
+    font: 0.1px;
+    color: white;
+}
+
+.lang-button {
+    cursor: pointer;
+    flex-basis: 50px;
+}
+
+.lang-button:hover {
+    border: 2px white solid;
+    border-radius: 2px;
+}
+
+.sign-in-span {
+    color: white;
+    font-size: 12px;
+    padding-right: 36px;
+}
+
+.sign-in {
+    font-size: 14px;
+}
+
+.orders-span {
+    padding-right: 16px;
+    font-size: 14px;
+}
+
+.cart-button {
+    font-size: 18px;
+}
+
+.bottom-nav {
+    display: flex;
+    width: 100%;
+    background-color: #232f3e;
+    align-items: center;
+    height: 38px;
+    gap: 24px;
+}
+
+.bottom-nav * {
+    color: white;
+    font-family: Amazon;
+    font-size: 15px;
+}
+
+.border {
+    cursor: pointer;
+    align-self: center;
+    transition: border 0.01s;
+}
+
+.border:hover {
+    border: 2px white solid;
+    border-radius: 2px;
+}
+
+.All {
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.first {
+    padding-left: 10px;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img {
+    height: 600px;
+}
+
+.left-arrow {
+    position: absolute;
+    right: 87%;
+    bottom: 74%;
+}
+
+/* .arrows-border {
+    transition: border 0.01s, border-radius 0.01s;
+}
+
+.arrows-border:active {
+    border: 2px white solid;
+    border-radius: 2px;
+} */
+
+.left-button {
+    cursor: pointer;
+}
+
+/* .left-button:hover {
+    border: 2px white solid;
+    border-radius: 2px;
+} */
+
+.box-rows {
+    display: flex;
+    gap: 20px;
+}
+
+.box-row-1 {
+    position: relative;
+    bottom: 350px;
+    left: 100px;
+    width: 1460px;
+}
+
+.box {
+    background-color: #fff;
+    height: 390px;
+    flex-basis: 350px;
+} 
+
+.box-image {
+    width: 312px;
+    height: 280px;
+    padding-left: 20px;
+    padding-top: 34px;
+    padding-right: 18px;
+}
+
+.box-text {
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    left: 16px;
+    top: 22px;
+}
+
+.see-more {
+    color: #007185;
+    text-decoration: none;
+    position: relative;
+    left: 16px;
+    top: 10px;
+    font-size: 14px;
+}
+
+.see-more:hover {
+    text-decoration: underline;
+    color: #C7511F;
+}
+
+.box-rows-2 {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    bottom: 350px;
+    left: 100px;
+    padding-top: 16px;
+    width: 1460px;
+}
+
+.box-2-all {
+    background-color: #fff;
+    height: 390px;
+    flex-basis: 320px;
+}
+
+footer {
+    background-color: #131A22;
+    width: 100%;
+    position: relative;
+    top: 200px;
+    height: 200px;
+}
+
+.all-rows {
+    display: flex;
+    gap: 80px;
+}
+
+.all-rows a {
+    color: white;
+    text-decoration: none;
+    flex-basis: 140px;
+    font-size: 14px;
+}
+
+.all-rows a:hover {
+    text-decoration: underline;
+}
+
+.all-span {
+    color: #ccc;
+}
+
+.a-3 {
+    width: 10px;
+}
+
+.a-1 {
+    padding-left: 400px;
+}
